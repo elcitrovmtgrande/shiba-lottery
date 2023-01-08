@@ -7,8 +7,10 @@ contract ShibaLottery {
     // Adresses du propriétaire du contrat, du token SHIBA INU utilisé pour la loterie et de l'organisme de bienfaisance
     address public owner;
     address public charityAddress;
+    //TODO: Change it by real ERC-20 shiba inu before production
     address public constant SHIBA_INU_ADDRESS =
-        0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE;
+        0xd91Ba5F8d577424C411F50CB3E215bcF5245d2a3;
+    // 0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE;
     address public constant DEAD_ADDRESS =
         0x0000000000000000000000000000000000000000;
 
