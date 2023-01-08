@@ -22,10 +22,10 @@ For each ticket you buy on the lottery, here is the distribution of the fees req
 - 20% to fund the project, make it growth and fund the project you will submit to us. We will fund each semester projects with the more votes.
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+pie showData
+    title Ticket price distribution
+    "Cash prize" : 70
+    "Will be burnt" : 10
+    "Ecosystem funding" : 20
 ```
 
